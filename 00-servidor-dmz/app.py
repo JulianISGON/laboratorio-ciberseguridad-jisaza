@@ -8,7 +8,7 @@ class CustomHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         
         # Personalizar con el nombre del estudiante / grupo
-        estudiante = os.getenv("JULIAN ISAZA", "EL INVENCIBLE")
+        estudiante = os.getenv("JULIAN ISAZA", "Julián Alberto Isaza Gonzalez")
         
         html_content = f"""
         <!DOCTYPE html>
